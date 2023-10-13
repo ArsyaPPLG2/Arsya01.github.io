@@ -14,7 +14,7 @@ body {
     padding: 0;
 }
 
-header {
+h1 {
     background-color: #007bff;
     color: #fff;
     text-align: center;
@@ -30,6 +30,40 @@ footer {
 ul{
     list-style:none;
 }
+ 
+a{
+    text-decoration:none;
+}
+nav{
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height:60px;
+    background-color:#0077ff;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+    padding:0px 5%;
+     
+}
+nav ul{
+    display: flex;
+}
+
+  
+nav ul li a{
+    margin:30px;
+    font-family:myriad pro regular;
+    color:#505050;
+    font-size: 15px;
+    font-weight:700;
+   justify-content: center;
+}
+.logo{
+    font-family:RoadTest;
+    color:#ffffff;
+    font-size: 22px;
+    font-weight: bold;
+}
         
 
 main {
@@ -40,14 +74,13 @@ section {
     margin-bottom: 20px;
 }
 
-/* Tambahkan styling khusus sesuai kebutuhan Anda */
+/* Tambahkan styling khusus sesuai kebutuhan Anda */
     </style>
 </head>
 <body>
-    <header>
-        <h1>Portofolio Saya</h1>
-    </header>
+  
     <nav>
+        <a href="#" class="logo">Portfolio Tutorial</a>
         <ul>
             <li><a href="#about">Tentang Saya</a></li>
             <li><a href="#portfolio">Portofolio</a></li>
